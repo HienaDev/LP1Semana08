@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassVsStruct", "ClassVsStr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructWithRef", "StructWithRef\StructWithRef.csproj", "{99A47A64-1FA0-403C-A3C7-6E2011A22090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniGame", "MiniGame\MiniGame.csproj", "{94D474A7-E518-42D2-A334-C057E3302B1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{99A47A64-1FA0-403C-A3C7-6E2011A22090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99A47A64-1FA0-403C-A3C7-6E2011A22090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99A47A64-1FA0-403C-A3C7-6E2011A22090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D474A7-E518-42D2-A334-C057E3302B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D474A7-E518-42D2-A334-C057E3302B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D474A7-E518-42D2-A334-C057E3302B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D474A7-E518-42D2-A334-C057E3302B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
