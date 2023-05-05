@@ -15,6 +15,11 @@ namespace GameUnits
 
         public override int Health => base.Health + XP;
 
+        public override string ToString()
+        {
+            return base.ToString() + $" AP={AttackPower} XP={XP}";
+        }
+
         public MilitaryUnit(int movement, int health, int attackPower) : base(movement, health)
         {
             AttackPower = attackPower;

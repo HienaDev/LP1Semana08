@@ -21,7 +21,7 @@ namespace GameUnits
 
         public override string ToString()
         {
-            return base.ToString();
+            return ($"{base.ToString()}: HP={Health} COST={Cost:f2}");
         }
 
         public void Move()
