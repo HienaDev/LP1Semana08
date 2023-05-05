@@ -19,6 +19,11 @@ namespace GameUnits
             Health = health;
         }
 
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
         public void Move()
         {
             Console.WriteLine(movement);
